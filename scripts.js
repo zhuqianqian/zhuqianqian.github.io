@@ -1,5 +1,6 @@
 function setupPage() {
     loadSkills();
+    loadEducation();
     loadLinks();
 }
 function loadSkills() {
@@ -15,7 +16,15 @@ function loadSkills() {
 }
 
 function loadEducation() {
-
+    courseSet = ["Programming", "Linear Algebra", "Data Structure",
+        "Algorithm Design and Analysis", "Operating Systems",
+        "Database", "Computer Network", "Cryptology"];
+    ul = document.getElementById("courses");
+    for (i = 0; i < courseSet.length; i++) {
+        var item = document.createElement("li");
+        item.appendChild(document.createTextNode(courseSet[i]));
+        ul.appendChild(item);
+    }
 }
 
 function loadWorks() {
