@@ -43,10 +43,10 @@ function loadLinks() {
     altTexts = ["LinkedIn", "GitHub", "Google Plus"];
     imgLinks = ["https://static.licdn.com/scds/common/u/images/logos/linkedin/logo_in_nav_44x36.png",
         "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png",
-        "https://developers.google.com/+/images/branding/g+138.png"
+        "https://www.gstatic.com/images/branding/product/2x/google_plus_48dp.png"
     ]
-    widths = [44, 44, 42];
-    heights = [36, 44, 42];
+    widths = [44, 44, 40];
+    heights = [36, 44, 40];
     ul = document.getElementById("links");
     for (i = 0; i < links.length; i++) {
         var item = document.createElement("li");
