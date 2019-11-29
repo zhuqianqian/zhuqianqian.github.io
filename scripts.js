@@ -42,7 +42,7 @@ function loadLinks() {
     ];
     altTexts = ["LinkedIn", "GitHub", "Google Plus"];
     imgLinks = ["https://static.licdn.com/scds/common/u/images/logos/linkedin/logo_in_nav_44x36.png",
-        "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png",
+        "https://github.githubassets.com/favicon.ico",
         "https://www.gstatic.com/images/branding/product/2x/google_plus_48dp.png"
     ]
     widths = [44, 44, 40];
