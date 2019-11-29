@@ -45,8 +45,8 @@ function loadLinks() {
         "https://github.githubassets.com/favicon.ico",
         "https://www.gstatic.com/images/branding/product/2x/google_plus_48dp.png"
     ]
-    widths = [44, 44, 40];
-    heights = [36, 44, 40];
+    widths = [44, 32, 40];
+    heights = [36, 32, 40];
     ul = document.getElementById("links");
     for (i = 0; i < links.length; i++) {
         var item = document.createElement("li");
